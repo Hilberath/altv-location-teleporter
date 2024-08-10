@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Raleway&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-scrollto@2.20.0"></script>
+</head>
+<body>
+    <div id="app" v-if="visible">
+        <div class="title">
+            <a v-on:click="close()">X</a>
+            <span>Hilberath Location</span>
+        </div>
+        <div class="categories">
+            <template v-for="(category, index) in categories">
+                <div class="category" v-scroll-to="{ el: '#scroll-'+index, container: '.locas' }">
+                    <img :src="'assets/categories/'+index+'.png'"/>
+                    {{ category }}
+                </div>
+            </template>
+        </div>
+        <div class="locas">
+            <div class="container">
+                <div class="search">
+                    <input type="text" v-model="keyword" placeholder="Search..." spellcheck="false">
+                </div>
+                <template v-if="keyword.length > 0">
+                    <div id="scroll-0">
+                        <hr data-content="Results"></hr>
+                        <template v-for="loca in storage">
+                            <a class="loca" v-on:click="select(loca.model)">
+                                <img alt="" :src="'assets/models/'+loca.model+'.jpg'">
+                                {{ loca.model }}
+                            </a>
+                        </template>
+                    </div>
+                </template>
+                <template v-else>
+                    <template v-for="(category, index) in categories">
+                        <div v-bind:id="'scroll-'+index">
+                            <template v-if="index > 0">
+                                    <hr v-bind:data-content="category"></hr>
+                                    <template v-for="loca in models">
+                                        <template v-if="loca.category === index">
+                                            <a class="loca" v-on:click="select(loca.model)">
+                                                <img alt="" :src="'assets/models/'+loca.model+'.jpg'">
+                                                {{ loca.model }}
+                                            </a>
+                                        </template>
+                                    </template>
+                            </template>
+                        </div>
+                    </template>
+                </template>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/app.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                alt.emit('ready');
+            }, 1000);
+        });
+
+        if ('alt' in window) {
+            alt.on('menu', (enabled) => {
+                app.keyword = '';
+                app.visible = enabled;
+            });
+        }
+    </script>
+</body>
+</html>
