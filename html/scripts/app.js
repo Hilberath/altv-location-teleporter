@@ -2,6 +2,19 @@ let app = new Vue({
   el: "#app",
   data: {
     categories: ["Alle", "Garage", "Appartments", "Staatliches", "Firmen", "Sonstiges"],
+    /*
+    Kategorien:
+    0 = Alle
+    1 = Garage
+    2 = Appartments
+    3 = Staatliches
+    4 = Firmen
+    5 = Sonstiges
+
+    Die Namen der Kategorien kannst du Oberhalb abändern,
+    die Bilder müssen den Selben namen haben und in dem "models" Ordner eingefügt werden
+    Die Bilder für die Kategorien findest du in dem Ordner "categories"
+    */
     models: [
       { category: 1, model: "2Garage" },
       { category: 1, model: "6Garage" },
@@ -82,6 +95,10 @@ let app = new Vue({
     ],
     keyword: "",
     storage: [],
+    //#########################################################
+    //Wenn du die Index.HTML Datei im Browser öffnen und bearbeiten willst
+    //setze für diesen Zeitraum visible auf true
+    //#########################################################
     visible: false,
   },
 

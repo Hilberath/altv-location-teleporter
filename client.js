@@ -4,6 +4,9 @@ import * as native from "natives";
 let loaded = false;
 let opened = false;
 
+//#########################################################
+//Verlinkung zu der HTML Index Datei
+//#########################################################
 const view = new alt.WebView("http://resource/html/index.html");
 
 function menu(toggle) {
@@ -45,6 +48,9 @@ view.on("select", (loca) => {
   menu(false);
 });
 
+//#########################################################
+//Tastenbelgung für das Öffnen und Schließen das Menüs
+//#########################################################
 alt.on("keyup", (key) => {
   if (!loaded) return;
 

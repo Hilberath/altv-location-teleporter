@@ -2,8 +2,6 @@ import * as alt from "alt-server";
 import * as fs from "fs/promises"; // Verwenden von fs/promises für die moderne Promise-basierte API
 import path from "path"; // Importiere das path-Modul
 
-// TPLOC Command#######################################################################
-
 let locations = [];
 //#########################################################
 //Bestimme den absoluten Pfad zur locations.json
