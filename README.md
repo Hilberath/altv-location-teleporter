@@ -19,7 +19,7 @@ A tool to teleport your character to certain positions on your AltV server
 ### Functions
 
 - [x] Teleport Character
-- [x] Added all models from the AltV list ([AltV Location & Interiors List](https://docs.altv.mp/gta/articles/references/interiors-and-locations.html))
+- [x] Added all locations from the AltV list ([AltV Location & Interiors List](https://docs.altv.mp/gta/articles/references/interiors-and-locations.html))
 - [ ] Added images for the locations
 - [ ] Retrieve location names from the database
 - [ ] Retrieve location images from the database
