@@ -21,6 +21,7 @@ A tool to teleport your character to certain positions on your AltV server
 - [x] Teleport Character
 - [x] Added all locations from the AltV list ([AltV Location & Interiors List](https://docs.altv.mp/gta/articles/references/interiors-and-locations.html))
 - [x] Added images for the locations
+- [x] Added all IPLs from the AltV list ([AltV IPL Liste](https://docs.altv.mp/gta/articles/references/interiors-and-locations.html))
 - [ ] Retrieve location names from the database
 - [ ] Retrieve location images from the database
 - [ ] Retrieve location coords from the database
@@ -47,6 +48,7 @@ Ein Tool um deinen Charakter auf deinem AltV Server zu bestimmten Positionen zu 
 - [x] Teleportiert dich zu der Position
 - [x] Positionen von der AltV Location Liste eingebunden ([AltV Location & Interiors Liste](https://docs.altv.mp/gta/articles/references/interiors-and-locations.html))
 - [x] Bilder von den Positionen hinzugefügt
+- [x] Alle IPLs von AltV hinzugefügt ([AltV IPL Liste](https://docs.altv.mp/gta/articles/references/interiors-and-locations.html))
 - [ ] Positions Namen aus der Datenbank nehmen
 - [ ] Positions Bilder aus der Datenbank nehmen
 - [ ] Positions Koordinaten aus der Datenbank nehmen
