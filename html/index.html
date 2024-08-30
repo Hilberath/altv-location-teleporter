@@ -17,7 +17,7 @@
         <div class="categories">
             <template v-for="(category, index) in categories">
                 <div class="category" v-scroll-to="{ el: '#scroll-'+index, container: '.locas' }">
-                    <img :src="'assets/categories/'+index+'.png'"/>
+                    <img :src="'assets/categories/'+index+'.webp'"/>
                     {{ category }}
                 </div>
             </template>
@@ -32,7 +32,7 @@
                         <hr data-content="Results"></hr>
                         <template v-for="loca in storage">
                             <a class="loca" v-on:click="select(loca.model)">
-                                <img alt="" :src="'assets/models/'+loca.model+'.jpg'">
+                                <img alt="" :src="'assets/models/'+loca.model+'.webp'">
                                 {{ loca.model }}
                             </a>
                         </template>
@@ -46,7 +46,7 @@
                                     <template v-for="loca in models">
                                         <template v-if="loca.category === index">
                                             <a class="loca" v-on:click="select(loca.model)">
-                                                <img alt="" :src="'assets/models/'+loca.model+'.jpg'">
+                                                <img alt="" :src="'assets/models/'+loca.model+'.webp'">
                                                 {{ loca.model }}
                                             </a>
                                         </template>
