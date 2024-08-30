@@ -36,5 +36,3 @@ alt.onClient("playerLocPos", (player, loca) => {
   const coords = location.position;
   player.pos = new alt.Vector3(coords[0], coords[1], coords[2]);
 });
-
-console.log("[HLT] Server-Side Loaded.");

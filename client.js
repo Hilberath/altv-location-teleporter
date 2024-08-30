@@ -62,5 +62,3 @@ alt.on("keyup", (key) => {
     menu(false);
   }
 });
-
-alt.log("[HLT] Client-Side Loaded.");
