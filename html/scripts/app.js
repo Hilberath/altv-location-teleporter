@@ -141,7 +141,7 @@ let app = new Vue({
     //Wenn du die Index.HTML Datei im Browser öffnen und bearbeiten willst
     //setze für diesen Zeitraum visible auf true
     //#########################################################
-    visible: true,
+    visible: false,
   },
 
   watch: {
