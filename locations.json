@@ -15,6 +15,11 @@
     "position": [229.9559, -981.7928, -99.66071]
   },
   {
+    "name": "MissionCarpark",
+    "description": "Parking area for missions",
+    "position": [405.9228, -954.1149, -99.6627]
+  },
+  {
     "name": "LowEndApartment",
     "description": "Affordable low-end apartment",
     "position": [261.4586, -998.8196, -99.00863]
@@ -95,6 +100,11 @@
     "position": [-1288, 440.748, 97.69459]
   },
   {
+    "name": "Motel",
+    "description": "A cozy roadside motel",
+    "position": [152.2605, -1004.471, -98.99999]
+  },
+  {
     "name": "BunkerInterior",
     "description": "A secret underground bunker",
     "position": [899.5518, -3246.038, -98.04907]
@@ -103,11 +113,6 @@
     "name": "CharCreator",
     "description": "Character creation area",
     "position": [402.5164, -1002.847, -99.2587]
-  },
-  {
-    "name": "MissionCarpark",
-    "description": "Parking area for missions",
-    "position": [405.9228, -954.1149, -99.6627]
   },
   {
     "name": "TortureRoom",
@@ -133,11 +138,6 @@
     "name": "MovieTheatre",
     "description": "Local movie theatre",
     "position": [-1427.299, -245.1012, 16.8039]
-  },
-  {
-    "name": "Motel",
-    "description": "A cozy roadside motel",
-    "position": [152.2605, -1004.471, -98.99999]
   },
   {
     "name": "MadrazosRanch",
@@ -358,5 +358,206 @@
     "name": "LSC2",
     "description": "Los Santos Customs",
     "position": [-1125.771484375, -1988.940673828125, 13.154541015625]
+  },
+
+  {
+    "name": "IPLStadium",
+    "description": "Maze Arena Stadium",
+    "position": [-248.6731, -2010.603, 30.14562]
+  },
+  {
+    "name": "IPLOfficeArcadius",
+    "description": "CEO Office",
+    "position": [-141.1987, -620.913, 168.8205]
+  },
+  {
+    "name": "IPLOfficeMazeBank",
+    "description": "CEO Office",
+    "position": [-75.8466, -826.9893, 243.3859]
+  },
+  {
+    "name": "IPLOfficeMazeBankWest",
+    "description": "CEO Office",
+    "position": [-1392.667, -480.4736, 72.04217]
+  },
+  {
+    "name": "IPLOfficeLombank",
+    "description": "CEO Office",
+    "position": [-1579.756, -565.0661, 108.523]
+  },
+  {
+    "name": "IPLCasinoMain",
+    "description": "Casino",
+    "position": [1100.0, 220.0, -50.0]
+  },
+  {
+    "name": "IPLCasinoGarage",
+    "description": "Casino Garage",
+    "position": [1295.0, 230.0, -50.0]
+  },
+  {
+    "name": "IPLMorgue",
+    "description": "Geschlossenes Krankenhaus",
+    "position": [275.446, -1361.11, 24.5378]
+  },
+  {
+    "name": "IPLLestersFactory",
+    "description": "Lesters Schneiderei",
+    "position": [716.84, -962.05, 31.59]
+  },
+  {
+    "name": "IPLLifeinvader",
+    "description": "LiveInvader",
+    "position": [-1047.9, -233.0, 39.0]
+  },
+  {
+    "name": "IPLAircraftCarrier",
+    "description": "Aircraft Carrier",
+    "position": [3084.73, -4770.709, 15.26167]
+  },
+  {
+    "name": "IPLGunrunningHeist",
+    "description": "Yacht",
+    "position": [-1418.21, 6749.81, 10.98968]
+  },
+  {
+    "name": "IPLDignityHeistYacht",
+    "description": "Yacht",
+    "position": [-2027.946, -1036.695, 6.707587]
+  },
+  {
+    "name": "IPLCluckingBellFarms",
+    "description": "Clucking Bell Farms",
+    "position": [-66.88, 6243.07, 31.07]
+  },
+  {
+    "name": "IPLTunnel",
+    "description": "Autobahn Tunnel",
+    "position": [-49.415, -558, 287, 30.1]
+  },
+  {
+    "name": "IPLApartment1",
+    "description": "",
+    "position": [-786.8663, 315.7642, 217.6385]
+  },
+  {
+    "name": "IPLApartment2",
+    "description": "",
+    "position": [-786.9563, 315.6229, 187.9136]
+  },
+  {
+    "name": "IPLApartment3",
+    "description": "",
+    "position": [-774.0126, 342.0428, 196.6864]
+  },
+  {
+    "name": "IPLWarehouse1",
+    "description": "",
+    "position": [1009.5, -3196.6, -38.99682]
+  },
+  {
+    "name": "IPLWarehouse2",
+    "description": "",
+    "position": [1051.491, -3196.536, -39.14842]
+  },
+  {
+    "name": "IPLWarehouse3",
+    "description": "",
+    "position": [1093.6, -3196.6, -38.99841]
+  },
+  {
+    "name": "IPLWarehouse4",
+    "description": "",
+    "position": [1121.897, -3195.338, -40.4025]
+  },
+  {
+    "name": "IPLWarehouseSmall",
+    "description": "",
+    "position": [1094.988, -3101.776, -39.00363]
+  },
+  {
+    "name": "IPLWarehouseMedium",
+    "description": "",
+    "position": [1056.486, -3105.724, -39.00439]
+  },
+  {
+    "name": "IPLWarehouseLarge",
+    "description": "",
+    "position": [1006.967, -3102.079, -39.0035]
+  },
+  {
+    "name": "IPLFIBLobby",
+    "description": "",
+    "position": [110.4, -744.2, 45.7496]
+  },
+  {
+    "name": "IPLCarwash",
+    "description": "",
+    "position": [55.7, -1391.3, 30.5]
+  },
+  {
+    "name": "IPLLostMC",
+    "description": "",
+    "position": [984.1552, -95.3662, 74.5]
+  },
+  {
+    "name": "IPLPillboxMD",
+    "description": "",
+    "position": [307.168, -590.807, 43.28]
+  },
+  {
+    "name": "IPLPDM",
+    "description": "",
+    "position": [-54.3, -1109.3767, 26.4358]
+  },
+  {
+    "name": "IPLFerrisWheel",
+    "description": "",
+    "position": [-1645.55, -1113.04, 12.65]
+  },
+  {
+    "name": "IPLRaceTrack",
+    "description": "",
+    "position": [1978, 3111, 46]
+  },
+  {
+    "name": "IPLCargoShip",
+    "description": "",
+    "position": [-163.3628, -2385.161, 5.999994]
+  },
+  {
+    "name": "IPLUnionDepo",
+    "description": "",
+    "position": [2.6968, -667.0166, 16.13061]
+  },
+  {
+    "name": "IPLTrevorsTrailer",
+    "description": "",
+    "position": [1975.552, 3820.538, 33.44833]
+  },
+  {
+    "name": "IPLMaxRendaShop",
+    "description": "",
+    "position": [-585.8247, -282.72, 35.45475]
+  },
+  {
+    "name": "IPLJuwel",
+    "description": "",
+    "position": [-630.07, -236.332, 38.05704]
+  },
+  {
+    "name": "IPLONeilsFarm",
+    "description": "",
+    "position": [2469.03, 4955.278, 45.11892]
+  },
+  {
+    "name": "IPLCayoPerico",
+    "description": "",
+    "position": [4972.75, -5703.15, 19.88]
+  },
+  {
+    "name": "IPLNorthYankton",
+    "description": "",
+    "position": [5327.56, -5189.22, 82.76]
   }
 ]
